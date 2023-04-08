@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-content{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 22px 135px 23px 135px;
+    background-color: #FBF7EC;
+}
+
+
+.header-nav button{
+    margin-left: 300px;
+    width: 122px;
+    height: 44px;
+    background-color:#004C3F;
+    color: #ffff;
+}
+
+.header-nav span{
+    margin-left: 250px;
+    gap: 30px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: #212625;
+}
+
+.text-main h1{
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.text-main p:first-of-type{
+}
+
+.text-main{
+    padding: 52px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FBF7EC;
+    color: #004C3F;
+}
+
+
+.main-card{
+    background-color: #FBF7EC;
+    font-family:  'DM Sans', sans-serif;
+    padding: 52px 135px 140px 135px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px 40px;
+}
+
+
+.card-one-yellow{
+    border: 1px solid black;
+}
+
+
+.card-one-yellow p:first-of-type{
+    background-color: #FFDB95;
+}
+
+
+
+.card-one-yellow p:first-of-type{
+    padding: 10px;
+}
+
+.card-one-yellow p:last-of-type{
+    color: gray;
+    padding:24px 20px;
+}
+
+.card-one-pig{
+    border: 1px solid black;
+}
+
+.card-one-pig p:first-of-type{
+    background-color: #FFBC9F;
+    padding: 10px;
+}
+
+.card-one-pig p:last-of-type{
+    color: gray;
+    padding: 24px 20px;
+}
+
+
+
+.card-one-green{
+    border: 1px solid black;
+}
+
+.card-one-green p:first-of-type{
+    background-color: #9DEDC6;
+    padding: 10px;
+}
+
+.card-one-green p:last-of-type{
+    color: gray;
+    padding: 24px 20px;
+}
+
+
+.card-two-green{
+    border: 1px solid black;
+}
+
+.card-two-green p:first-of-type{
+    background-color: #9DEDC6;
+    padding: 10px;
+}
+
+.card-two-green p:last-of-type{
+    color: gray;
+    padding: 24px 20px;
+}
+
+
+.card-two-yellow{
+    border: 1px solid black;
+}
+
+.card-two-yellow p:first-of-type{
+    background-color: #FFDB95;
+    padding: 10px;
+}
+
+.card-two-yellow p:last-of-type{
+    color: gray;
+    padding: 24px 20px;
+}
+
+
+
+
+
+.card-two-pig{
+    border: 1px solid black;
+}
+
+.card-two-pig p:first-of-type{
+    background-color: #FFBC9F;
+    padding: 10px;
+}
+
+.card-two-pig p:last-of-type{
+    color: gray;
+    padding: 24px 20px;
+}
+
+
+.text-block{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 111px 762px 50px 135px;
+}
+
+.text-block h1{
+    font-size: 64px;
+    color: #004C3F;
+}
+
+
+.text-block p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #57605E;
+}
+
+.text-block button{
+    justify-content: space-between;
+}
+
+
+.block-card{
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    margin: 50px 30px 111px 135px;
+    gap: 30px;
+}
+
+.block-card h3{
+    margin-top: 30px;
+}
+
+.block-card a{
+    margin-top: 20px;
+    color: black;
+}
+
+
+.footer{
+    height: 849px;
+    background-color: #002E24;
+}
+
+.footer span{
+    margin-left: 45%;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.footer-content{
+    font-family: 'DM Sans', sans-serif;
+    margin: 30px 0px 42px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.footer-content button{
+    width: 188px;
+    height: 64px;
+    color: #004C3F;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.footer-end{
+    display: flex;
+}
+
+.footer-end img{
+    margin: 51px 200px 327px 135px;
+}
+
+.footer-text{
+    margin-top: 51px;
+}
+
+.footer-text h3{
+    color: #fff;
+}
+
+.footer-text p{
+    margin-top: 16px;
+    color: #ebe7e7;
+}
+
+
+.footer-text-two{
+    margin-top: 51px;
+    margin-left: 157px;
+    color: #fff;
+}
+
+.footer-text-two p{
+    margin-top: 16px;
+}
+
+
+
+.footer-text-free{
+    margin-top: 51px;
+    margin-left: 115px;
+    color: #fff;
+}
+
+.footer-text-free p{
+    margin-top: 16px;
+}
+
+
+.footer-text-four{
+    margin-top: 51px;
+    margin-left: 115px;
+    color: #fff;
+}
+
+.footer-text-four p{
+    margin-top: 16px;
+}
